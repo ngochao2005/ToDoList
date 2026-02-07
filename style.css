@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container {
+    width: 350px;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: flex;
+    gap: 8px;
+}
+
+input {
+    flex: 1;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.input-group button {
+    background: #4CAF50;
+}
+
+.input-group button:hover {
+    background: #43a047;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 4px;
+    border-bottom: 1px solid #eee;
+}
+
+/* nút xoá từng task */
+li button {
+    background: #f44336;
+}
+
+li button:hover {
+    background: #e53935;
+}
+
+/* nút xoá tất cả */
+.clear-btn {
+    margin-top: 15px;
+    width: 100%;
+    background: #f44336;
+}
+
+.clear-btn:hover {
+    background: #e53935;
+}
